@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5B482351620BDD700891D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B482341620BDD700891D1B /* UIKit.framework */; };
+		E5B482371620BDD700891D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B482361620BDD700891D1B /* Foundation.framework */; };
+		E5B482391620BDD700891D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B482381620BDD700891D1B /* CoreGraphics.framework */; };
+		E5B4823F1620BDD700891D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5B4823D1620BDD700891D1B /* InfoPlist.strings */; };
+		E5B482411620BDD700891D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B482401620BDD700891D1B /* main.m */; };
+		E5B482451620BDD700891D1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B482441620BDD700891D1B /* AppDelegate.m */; };
+		E5B482481620BDD700891D1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B482461620BDD700891D1B /* MainStoryboard.storyboard */; };
+		E5B4824B1620BDD700891D1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B4824A1620BDD700891D1B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5B482301620BDD700891D1B /* OgraProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OgraProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B482341620BDD700891D1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5B482361620BDD700891D1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5B482381620BDD700891D1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5B4823C1620BDD700891D1B /* OgraProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OgraProject-Info.plist"; sourceTree = "<group>"; };
+		E5B4823E1620BDD700891D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5B482401620BDD700891D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5B482421620BDD700891D1B /* OgraProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OgraProject-Prefix.pch"; sourceTree = "<group>"; };
+		E5B482431620BDD700891D1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5B482441620BDD700891D1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5B482471620BDD700891D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E5B482491620BDD700891D1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5B4824A1620BDD700891D1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5B4822D1620BDD700891D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B482351620BDD700891D1B /* UIKit.framework in Frameworks */,
+				E5B482371620BDD700891D1B /* Foundation.framework in Frameworks */,
+				E5B482391620BDD700891D1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5B482251620BDD700891D1B = {
+			isa = PBXGroup;
+			children = (
+				E5B4823A1620BDD700891D1B /* OgraProject */,
+				E5B482331620BDD700891D1B /* Frameworks */,
+				E5B482311620BDD700891D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B482311620BDD700891D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5B482301620BDD700891D1B /* OgraProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5B482331620BDD700891D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5B482341620BDD700891D1B /* UIKit.framework */,
+				E5B482361620BDD700891D1B /* Foundation.framework */,
+				E5B482381620BDD700891D1B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5B4823A1620BDD700891D1B /* OgraProject */ = {
+			isa = PBXGroup;
+			children = (
+				E5B482431620BDD700891D1B /* AppDelegate.h */,
+				E5B482441620BDD700891D1B /* AppDelegate.m */,
+				E5B482461620BDD700891D1B /* MainStoryboard.storyboard */,
+				E5B482491620BDD700891D1B /* ViewController.h */,
+				E5B4824A1620BDD700891D1B /* ViewController.m */,
+				E5B4823B1620BDD700891D1B /* Supporting Files */,
+			);
+			path = OgraProject;
+			sourceTree = "<group>";
+		};
+		E5B4823B1620BDD700891D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5B4823C1620BDD700891D1B /* OgraProject-Info.plist */,
+				E5B4823D1620BDD700891D1B /* InfoPlist.strings */,
+				E5B482401620BDD700891D1B /* main.m */,
+				E5B482421620BDD700891D1B /* OgraProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5B4822F1620BDD700891D1B /* OgraProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B4824E1620BDD700891D1B /* Build configuration list for PBXNativeTarget "OgraProject" */;
+			buildPhases = (
+				E5B4822C1620BDD700891D1B /* Sources */,
+				E5B4822D1620BDD700891D1B /* Frameworks */,
+				E5B4822E1620BDD700891D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OgraProject;
+			productName = OgraProject;
+			productReference = E5B482301620BDD700891D1B /* OgraProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5B482271620BDD700891D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mohammed Hasan";
+			};
+			buildConfigurationList = E5B4822A1620BDD700891D1B /* Build configuration list for PBXProject "OgraProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5B482251620BDD700891D1B;
+			productRefGroup = E5B482311620BDD700891D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4822F1620BDD700891D1B /* OgraProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5B4822E1620BDD700891D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B4823F1620BDD700891D1B /* InfoPlist.strings in Resources */,
+				E5B482481620BDD700891D1B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5B4822C1620BDD700891D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B482411620BDD700891D1B /* main.m in Sources */,
+				E5B482451620BDD700891D1B /* AppDelegate.m in Sources */,
+				E5B4824B1620BDD700891D1B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5B4823D1620BDD700891D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B4823E1620BDD700891D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5B482461620BDD700891D1B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B482471620BDD700891D1B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5B4824C1620BDD700891D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5B4824D1620BDD700891D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5B4824F1620BDD700891D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OgraProject/OgraProject-Prefix.pch";
+				INFOPLIST_FILE = "OgraProject/OgraProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5B482501620BDD700891D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OgraProject/OgraProject-Prefix.pch";
+				INFOPLIST_FILE = "OgraProject/OgraProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5B4822A1620BDD700891D1B /* Build configuration list for PBXProject "OgraProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B4824C1620BDD700891D1B /* Debug */,
+				E5B4824D1620BDD700891D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B4824E1620BDD700891D1B /* Build configuration list for PBXNativeTarget "OgraProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B4824F1620BDD700891D1B /* Debug */,
+				E5B482501620BDD700891D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5B482271620BDD700891D1B /* Project object */;
+}
